@@ -1,0 +1,17 @@
+{
+    "routes" : [
+        {
+            "path": "/",
+            "name": "Home"
+        },
+        {
+            "path": "/contact",
+            "name": "Contact"
+        }
+    ],
+    "main": {
+        "title": "Hi! I'm <span class=\"color\">Valentin</span>",
+        "subtitle": "Freelance developer",
+        "cta": "Ready to develop your idea?"
+    }
+}

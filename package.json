@@ -5,10 +5,14 @@
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
+    "prod:preview": "node ./build/index",
+    "prod:start": "pm2 start ./build/index.js --name freelancewebsite",
+    "prod:restart": "pm2 restart freelancewebsite",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
+    "@sveltejs/adapter-node": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",

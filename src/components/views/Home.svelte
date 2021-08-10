@@ -56,6 +56,7 @@
 
     section > .svg {
         max-width: 550px;
+        width: 50%;
     }
 
     section > .text > .title-container {

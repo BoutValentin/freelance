@@ -13,5 +13,33 @@
         "title": "Hé ! Je suis <span class=\"color\">Valentin</span>",
         "subtitle": "Freelance développeur",
         "cta": "Prêt à développer votre idée ?"
+    },
+    "error": {
+        "mailer_unavailable": "Le service delivrant les emails est actuellement indisponible",
+        "mailer_error": "Une erreur est survenu en essayant d'envoyer l'email",
+        "empty_email":"L'email ne peux être vide",
+        "empty_name":"Le nom ne peux être vide",
+        "invalid_email":"L'email doit être une adresse email valide",
+        "empty_subject":"Le sujet du mail ne peux être vide",
+        "empty_content":"Le contenu du mail ne peux être vide",
+        "full_nh": "Vous êtes un robot !"
+    },
+    "alternative": {
+        "alternative_email": "Vous pouvez directement m'envoyer un email à"
+    },
+    "email": {
+        "name": "Nom :",
+        "email": "Email :",
+        "subject": "Sujet :",
+        "email_content": "Contenu de l'email :",
+        "submit": "Envoyer l'email",
+        "success": "Votre email a été envoyé avec succés"
+    },
+    "all": {
+        "contact_me": "Contactez Moi !"
+    },
+    "contact": {
+        "dont_like_email": "Vous n'aimez pas les mails ?",
+        "contact_me_here": "Contactez moi autrement :"
     }
 }

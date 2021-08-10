@@ -39,3 +39,9 @@
 <g>
 </g>
 </svg>
+
+<style>
+	svg {
+		fill: var(--main-font-color);
+	}
+</style>

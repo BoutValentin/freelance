@@ -13,5 +13,33 @@
         "title": "Hi! I'm <span class=\"color\">Valentin</span>",
         "subtitle": "Freelance developer",
         "cta": "Ready to develop your idea?"
+    },
+    "error": {
+        "mailer_unavailable": "The mailing service is currently unavailable",
+        "mailer_error": "An error append when we try to send the email",
+        "empty_email":"The email cannot be empty",
+        "empty_name":"The name cannot be empty",
+        "invalid_email":"The email should be a valid email",
+        "empty_subject":"The subject cannot be empty",
+        "empty_content":"The content of the email cannot be empty",
+        "full_nh": "You are a robot!"
+    },
+    "alternative": {
+        "alternative_email": "You could directly send me an email at"
+    },
+    "email": {
+        "name": "Name:",
+        "email": "Email:",
+        "subject": "Subject:",
+        "email_content": "Email content:",
+        "submit": "Send email!",
+        "success": "Your email was successfully send!"
+    },
+    "all": {
+        "contact_me": "Contact Me!"
+    },
+    "contact": {
+        "dont_like_email": "You don't like email ?",
+        "contact_me_here": "Contact me here:"
     }
 }

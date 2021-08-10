@@ -1,0 +1,32 @@
+:root {
+	--main-accent-color-1: #cc2936;
+	--main-accent-color-2: #656839;
+	--main-accent-color-3: #678d58;
+}
+
+body[data-theme='light'] {
+	--main-bg-color: #fff;
+	--main-font-color: #131319;
+	--shadow-skills: rgba(25, 25, 25, 0.3);
+	--stroke-active-contact-path: rgb(10, 10, 10);
+	--stroke-active-contact-svg: rgba(10, 10, 10, 0.38);
+	--shadow-contact-svg: rgba(36, 36, 36, 0.3);
+}
+
+body[data-theme='dark'] {
+	--main-bg-color: #131319;
+	--main-font-color: #fff;
+	--shadow-skills: rgba(230, 230, 230, 0.3);
+	--stroke-active-contact-path: rgba(245, 245, 245, 1);
+	--stroke-active-contact-svg: rgba(245, 245, 245, 0.38);
+	--shadow-contact-svg: rgba(240, 240, 240, 0.3);
+}
+
+
+.twitter-svg {
+    transform: scale(0.8);
+}
+
+.github-svg {
+    transform: scale(0.9);
+}

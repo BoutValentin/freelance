@@ -6,13 +6,15 @@ html, body {
     font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   max-width: 100vw;
-  overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 #svelte {
     display: flex;
     flex-flow: column;
-    height: 100%;
 }
 
 .light-bold {
@@ -24,5 +26,5 @@ html, body {
 }
 
 .color {
-    color: var(--main-accent-color-1);
+    color: var(--main-accent-color-1) !important;
 }

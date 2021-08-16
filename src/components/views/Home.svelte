@@ -4,6 +4,10 @@
 
 	import { lg_dico } from '/src/utils/locales';
 	import { locale } from '/src/utils/locales';
+import WhoIAm from '/src/components/home/WhoIAm.svelte';
+import Promise from '/src/components/home/Promise.svelte';
+import Projects from '/src/components/home/Projects.svelte';
+import Last from '/src/components/home/Last.svelte';
 
 	// Declare the dico var use to get the languages content
 	let dico;
@@ -18,31 +22,48 @@
 	onDestroy(unsub_lg_dico);
 </script>
 
-<section class="home">
-	<div class="text">
-		<div class="title-container">
-			<p class="title">{@html dico['title']}</p>
-			<p class="subtitle">{dico['subtitle']}</p>
-		</div>
-		<div class="link-container">
-			<a class="link" href="/contact">
-                <p>{dico['cta']}</p>
-            </a>
-		</div>
-	</div>
+<div class="home-view">
 
-	<div class="svg">
-		<MeDesk />
-	</div>
-</section>
+    <section class="home">
+        <div class="text">
+            <div class="title-container">
+                <p class="title">{@html dico['title']}</p>
+                <p class="subtitle">{dico['subtitle']}</p>
+            </div>
+            <div class="link-container">
+                <a class="link" href="/contact">
+                    <p>{dico['cta']}</p>
+                </a>
+            </div>
+        </div>
+        
+        <div class="svg">
+            <MeDesk />
+        </div>
+    </section>
+    <WhoIAm />
+    <Promise />
+<!--     <Projects />
+ -->    <Last />
+</div>
 
 <style>
+    .home-view {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        max-width: calc(100vw - 40px);
+    }
+
+    .home {
+        min-height: calc(100vh - 80px);
+    }
+
     section {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 100%;
         padding: 15px;
     }
 
@@ -99,7 +120,7 @@
         letter-spacing: 1px;
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 650px) {
         section {
             flex-direction: column;
             align-items: center;

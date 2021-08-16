@@ -8,12 +8,18 @@ import { ERROR_MESSAGES } from '/src/utils/mailvalidator';
     const FAILED = 'failed';
     const SUCCESS = 'sucess';
 
-	const user = new UserEmail();
+	let user = new UserEmail();
 
 	let error_message = [];
 
     let is_sending = false;
     let status = null;
+
+    let ref_form;
+
+    const go_to_bind = () => {
+        window.scrollTo(ref_form.offsetTop, 0);
+    }
 
 	const handle_submit_value = async (event) => {
 		event.preventDefault();
@@ -21,13 +27,18 @@ import { ERROR_MESSAGES } from '/src/utils/mailvalidator';
         status = null;
 		if (user.as_empty_value()) {
             error_message = [...user.retrieve_error_message()];
+            go_to_bind();
             return;
         }
 		if (user.check_honeypot()) {
             return;
         };
 		error_message = [ ...user.retrieve_error_message(), ...user.check_email_error() ];
-		if (error_message.length > 0) return;
+		if (error_message.length > 0) {
+            go_to_bind();
+            return;
+        };
+        go_to_bind();
 		const rep = await fetch('/api/mailer', {
 			method: 'POST',
 			headers: {
@@ -46,13 +57,21 @@ import { ERROR_MESSAGES } from '/src/utils/mailvalidator';
         }
 		const rep_obj = await rep.json();
 		error_message = [...rep_obj.error];
+        if (error_message.length <= 0) {
+            user = new UserEmail();
+        }
 	};
 </script>
 
 <div class="contact-container">
-<div class="contact">
+<div class="contact" bind:this={ref_form}>
     <h4 class="title">{$lg_dico['all']['contact_me']}</h4>
-    {#if status === SUCCESS}
+    {#if is_sending}
+    <div class="sending">
+        <p>{$lg_dico['email']['sending']}</p>
+    </div>
+{/if}
+    {#if status === SUCCESS && !is_sending}
         <div class="success">
             <p>{$lg_dico['email']['success']}</p>
         </div>
@@ -119,11 +138,15 @@ import { ERROR_MESSAGES } from '/src/utils/mailvalidator';
 
 <style>
 
-    .error, .success {
+    .error, .success, .sending {
         background-color: #ffffff;
         padding: 2em;
         border-radius: 15px;
         color: #cc2936
+    }
+
+    .sending {
+        color: var(--main-font-color);
     }
 
     .success {
@@ -204,6 +227,10 @@ import { ERROR_MESSAGES } from '/src/utils/mailvalidator';
         border-bottom: 1px solid white;
         background: none ;
         color: #fff;
+    }
+
+    .form-row textarea {
+        min-height: 80px;
     }
 
     input:-webkit-autofill,

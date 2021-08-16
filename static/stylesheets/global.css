@@ -30,3 +30,13 @@ body[data-theme='dark'] {
 .github-svg {
     transform: scale(0.9);
 }
+
+.skillsSvg {
+	fill: var(--main-bg-color);
+	stroke: var(--main-bg-color);
+}
+
+.reverseFill {
+	fill: var(--main-font-color);
+	stroke: var(--main-font-color);
+}

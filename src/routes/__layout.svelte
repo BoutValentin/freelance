@@ -7,9 +7,9 @@
 	import Logo from '/src/components/svg/Logo.svelte';
 	import Hamburger from '/src/components/svg/Hamburger.svelte';
 	import Close from '/src/components/svg/Close.svelte';
+import Footer from '/src/components/Footer.svelte';
 
 	const handleScroll = (e) => {
-		console.log(e);
 	};
 
 	let route_choice = [];
@@ -130,7 +130,7 @@
 <main>
 	<slot />
 </main>
-<footer />
+<Footer />
 
 <style>
 	header.little-header {
@@ -164,6 +164,7 @@
 
 	header .title .logo {
 		height: 50px;
+		max-width: 80px;
 		margin: auto 15px;
 	}
 
@@ -176,6 +177,7 @@
 	main {
 		height: 100%;
 		width: 100%;
+		min-height: calc(100vh - 80px);
 		max-width: 1600px;
 		display: flex;
 		margin: 80px auto 0;

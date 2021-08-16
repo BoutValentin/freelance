@@ -1,10 +1,10 @@
 import { derived, writable } from "svelte/store";
-import EN from '../../static/locales/en.json';
+import FR from '../../static/locales/fr.json';
 
 // This will be our merge dictionary
-let merge_dico = { 'en' : EN };
+let merge_dico = { 'fr' : FR };
 // All the locales we support in our app
-export const AVAILABLE_LOCALES = ['en', 'fr'];
+export const AVAILABLE_LOCALES = ['fr', 'en'];
 // Make a promise array of all the import of locales
 const prom_locales = AVAILABLE_LOCALES.map(locale => import(`../../static/locales/${locale}.json`));
 // For each locale file import => store it in the dico object

@@ -18,6 +18,14 @@ export class UserEmail {
         this.nh = nh
     }
 
+    reset_user() {
+        this.name = "";
+        this.email = "";
+        this.subject = "";
+        this.content = "";
+        this.nh = "";
+    }
+
     as_empty_value() {
         return !Object.keys(this).reduce((prev, key) => {
             if (key === 'nh') return prev && !this[key];

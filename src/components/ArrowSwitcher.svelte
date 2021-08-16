@@ -110,6 +110,15 @@
     }
 
     .arrow-switcher > .content > .choices, .arrow-switcher > .hidden-content > .choices {
+        background-color: var(--main-bg-color);
+        padding: 0px 40px 0px 0px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .arrow-switcher > .content.right > .choices, .arrow-switcher > .hidden-content.right > .choices {
+        background-color: var(--main-bg-color);
+        padding: 0px 0px 0px 40px;
+        border-radius: 0 0 30px 30px;
     }
 
     .arrow-switcher > .content > .choices > .choice > p{

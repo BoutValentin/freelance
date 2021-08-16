@@ -7,6 +7,10 @@
         {
             "path": "/contact",
             "name": "Contact"
+        },
+        {
+            "path": "/legal",
+            "name": "Legal"
         }
     ],
     "main": {
@@ -33,13 +37,51 @@
         "subject": "Subject:",
         "email_content": "Email content:",
         "submit": "Send email!",
-        "success": "Your email was successfully send!"
+        "success": "Your email was successfully send!",
+        "sending": "Your email is currently being send!"
     },
     "all": {
-        "contact_me": "Contact Me!"
+        "contact_me": "Contact Me!",
+        "not-available": "This content is not available in your languages."
     },
     "contact": {
         "dont_like_email": "You don't like email ?",
         "contact_me_here": "Contact me here:"
+    },
+    "footer": {
+        "mainText": "Made (Development, Design and illustrations) by <a href=\"https://github.com/BoutValentin\"  rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> with <a href=\"https://kit.svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte kit</a>",
+        "licence": "Under"
+    },
+    "who_i_am": {
+        "title": "Who I am ?",
+        "prim_text": "My name is Valentin BOUT, I'm a <span class=\"color\">Fullstack Developer Designer</span>. I can help you to make your website ideas coming to life!",
+        "questions": "Fullstack? Developer? Designer?",
+        "fullstack_title": "Fullstack",
+        "fullstack_text": "A Fullstack developer is a type of developer with varied skills to build a website from A to Z while ensuring the entire development process.",
+        "developer_title": "Developer",
+        "developer_text": "A developer is a computer scientist making software or computer systems using various programming languages chosen according to a need.",
+        "designer_title": "Designer",
+        "designer_text": "A graphic designer is a professional graphic designer who creates, among other things, logos, models or the harmonization of the colors of a website. A graphic designer aims to visually convey a message or a given state of mind.",
+        "sub_questions": "What do these names mean in concrete terms?",
+        "cta": "Still abstract for you? Don't worry I will explain everything when we <a href=\"/contact\" class=\"color\">meet</a>",
+        "learn_more": "You can also learn more about me in my <a href=\"https://boutvalentin.com\" target=\"_blank\" class=\"bold color\">e-portfolio</a>"
+    },
+    "promises": {
+        "title": "What I promise to you ?",
+        "prim_text": "Your project is <span class=\"color bold\">important</span> for you. Taking care of it and bringing it to life is a greatly trust you will give to me. This is why I <span class=\"color bold\">promise</span> you this:",
+        "prom_1_title": "The life-cycle of your project will be <span class=\"color bold\">fully transparent</span>",
+        "prom_1_text": "When I will develop your project, you will get some news about it at a regular pace. I will also give you some URL you can use to test and see the advancement of your project. I'm engaging myself to be fully transparent about the state of your project at any times and explain to you every single problem we can run through.",
+        "prom_2_title": "Your website will be <span class=\"color bold\">ready to use</span>",
+        "prom_2_text": "When the development of your website is complete, I promise you a complete and 100% usable website. From the domain name to its access, everything will be ready so that your presence on the internet is strengthened",
+        "prom_3_title": "A fully <span class=\"color bold\">transparent pricing</span> will be share to you",
+        "prom_3_text": "As an owner, your website or your projects means a lot for you and sometimes this can represent much money and even the project of your life. To remove all the bad surprise, I will share and explain to you each line of the estimate  to make sur your undestand what can cost you money and what can you save. At the end, we have the same goal: see your project raise against your competitor. "
+    },
+    "projects": {
+        "projects": []
+    },
+    "last": {
+        "title": "Ready to take the plunge?",
+        "contact": "So <a href=\"/contact\" class=\"color bold\"> Contact me! </a>",
+        "tools": "Some tools and programming languages that I use:"
     }
 }

@@ -10,7 +10,7 @@
         },
         {
             "path": "/legal",
-            "name": "Legale"
+            "name": "Légale"
         }
     ],
     "main": {
@@ -49,32 +49,32 @@
         "contact_me_here": "Contactez moi autrement :"
     },
     "footer": {
-        "mainText": "Crée (Développement, Design et illustrations) par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://kit.svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte kit</a>",
+        "mainText": "Créé (Développement, Design et illustrations) par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://kit.svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte kit</a>",
         "licence": "Sous"
     },
     "who_i_am": {
         "title": "Qui suis-je ?",
-        "prim_text": "Je m'appelle Valentin BOUT, Je suis un<span class=\"color\"> Développeur / Designer \"Fullstack\" </span>. Je peux vous aider en donnant vie à vos idées de site web.",
+        "prim_text": "Je m'appelle Valentin BOUT, je suis un<span class=\"color\"> Développeur / Designer \"Fullstack\" </span>. Je peux vous aider en donnant vie à vos idées de site web.",
         "questions": "Fullstack ? Développeur ? Designer ?",
         "fullstack_title": "Fullstack",
-        "fullstack_text": "Un développeur Fullstack est un type de développeur disposant de compétence variées permetttant de réaliser un site web de A à Z en assurant tout le processus de développement.",
+        "fullstack_text": "Un développeur Fullstack est un développeur disposant de compétences variées permetttant de réaliser un site web de A à Z en assurant tout le processus de développement.",
         "developer_title": "Développeur",
-        "developer_text": "Un développeur est un informaticien réalisant des logiciels ou des systèmes informatiques à l'aide de language de programmation variées choisit en fonction d'un besoin.",
+        "developer_text": "Un développeur est un informaticien réalisant des logiciels ou des systèmes informatiques à l'aide de langages de programmation variés choisi en fonction d'un besoin.",
         "designer_title": "Designer",
-        "designer_text": "Un designer graphique est un graphiste professionnel réalisant entre autres des logos, des maquettes ou l'harmonisation des couleurs d'un site web. Un graphiste à pour but de transmettre visuellement un message ou un état d'esprit donné.",
-        "sub_questions": "Que signifie ces appelations concretement ?",
-        "cta": "Toujours un peu abstrait pour vous ? Ne vous inquietez pas je vous expliquerai tout en detail pendant notre <a href=\"/contact\" class=\"bold color\">rencontre</a>",
+        "designer_text": "Un designer graphique est un graphiste professionnel réalisant entre autres des logos, des maquettes ou l'harmonisation des couleurs d'un site web. Un graphiste a pour but de transmettre visuellement un message ou un état d'esprit donné.",
+        "sub_questions": "Que signifie ces appelations concrétement ?",
+        "cta": "Toujours un peu abstrait pour vous ? Ne vous inquiétez pas, je vous expliquerai tout en détail pendant notre <a href=\"/contact\" class=\"bold color\">rencontre</a>.",
         "learn_more": "Vous pouvez en apprendre d'avantage sur moi en consultant mon <a href=\"https://boutvalentin.com\" target=\"_blank\" class=\"bold color\">e-portfolio</a>"
     },
     "promises": {
         "title": "Ce que je vous promets ?",
-        "prim_text": "Votre projet est <span class=\"color bold\">important</span> pour vous. En prendre soin et lui donner vie est une grande confiance que vous me donnerez. C'est pourquoi je vous <span class=\"color bold\">promets</span> ceci :",
+        "prim_text": "Votre projet est <span class=\"color bold\">important</span> pour vous. En prendre soin et lui donner vie est une grande confiance que vous me donnerez. C'est pourquoi, je vous <span class=\"color bold\">promets</span> ceci :",
         "prom_1_title": "Le cycle de vie de votre projet sera <span class=\"color bold\">entièrement transparent</span>",
-        "prom_1_text": "Lorsque je développerai votre projet, vous en aurez des nouvelles à un rythme régulier. Je vais également vous donner quelques URL que vous pouvez utiliser pour tester et voir l'avancement de votre projet. Je m'engage à être totalement transparent sur l'état de votre projet à tout moment et à vous expliquer chaque problème que j'ai pu rencontrer.",
+        "prom_1_text": "Lorsque je développerai votre projet, vous en aurez des nouvelles à un rythme régulier. Je vous donnerai également quelques URL que vous pourrez utiliser pour tester et voir l'avancement de votre projet. Je m'engage à être totalement transparent sur l'état de votre projet à tout moment et à vous expliquer chaque problème que j'ai pu rencontrer.",
         "prom_2_title": "Votre site web sera <span class=\"color bold\">prêt à être utilisé</span>",
-        "prom_2_text": "Quand le developpement de votre site web sera terminé, je vous promets un site web complet et utilisable à 100%. Du nom de domaine à son accés tout sera prêt pour que votre présence sur internet sois renforcées.",
+        "prom_2_text": "Quand le developpement de votre site web sera terminé, je vous promets un site web complet et utilisable à 100%. Du nom de domaine à son accés tout sera prêt pour que votre présence sur internet soit renforcée.",
         "prom_3_title": "Une <span class=\"color bold\">tarification compléte et transparente</span>",
-        "prom_3_text": "En tant que propriétaire, votre site internet ou vos projets signifient beaucoup pour vous et parfois cela peut représenter beaucoup d'argent et même le projet de votre vie. Pour supprimer toutes les mauvaises surprises, je vais partager et vous expliquer chaque ligne du devis pour vous assurer de bien comprendre ce qui peut vous coûter de l'argent et ce que vous pouvez économiser. Au final, nous avons le même objectif : voir votre projet se hisser face à votre concurrent."
+        "prom_3_text": "En tant que propriétaire, votre site internet ou vos projets signifie beaucoup pour vous et parfois cela peut représenter beaucoup d'argent et même le projet de votre vie. Pour supprimer toutes les mauvaises surprises, je vais partager et vous expliquer chaque ligne du devis pour vous assurer de bien comprendre ce qui peut vous coûter de l'argent et ce que vous pouvez économiser. Au final, nous avons le même objectif : voir votre projet se hisser face à votre concurrent."
     },
     "projects": {
         "projects": []
